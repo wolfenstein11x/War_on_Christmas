@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2023346530}
   - component: {fileID: 2154171190314048691}
   m_Layer: 0
-  m_Name: Snowman2
+  m_Name: Snowman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -132,6 +132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f54a9130b84c724e833862b4dbe882b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cost: 50
 --- !u!1 &5459061025286977707
 GameObject:
   m_ObjectHideFlags: 0

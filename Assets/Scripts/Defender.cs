@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Defender : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] int cost = 100;
+
+    public void AddMoney(int amount)
     {
-        
+        FindObjectOfType<MoneyDisplay>().AddMoney(amount);
     }
 
-    // Update is called once per frame
-    void Update()
+    public int GetCost()
     {
-        
+        return cost;
     }
 }
