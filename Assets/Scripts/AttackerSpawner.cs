@@ -27,7 +27,10 @@ public class AttackerSpawner : MonoBehaviour
 
     private void SpawnAttacker()
     {
-        Instantiate(attacker, transform.position, transform.rotation);
+        Attacker newAttacker = Instantiate(attacker, transform.position, transform.rotation) as Attacker;
+
+        // make it so the instances go into a parent gameobject and don't clutter the hierarchy
+        newAttacker.transform.parent = transform;
     }
 
     
