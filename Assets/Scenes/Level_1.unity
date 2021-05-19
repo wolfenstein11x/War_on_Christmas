@@ -235,12 +235,17 @@ PrefabInstance:
     - target: {fileID: 5335931759943227975, guid: d2765ba6aa5a1294a89d257c89bdd035,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5335931760001864856, guid: d2765ba6aa5a1294a89d257c89bdd035,
         type: 3}
       propertyPath: m_Name
       value: Spawner (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5335931760001864856, guid: d2765ba6aa5a1294a89d257c89bdd035,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5335931760001864863, guid: d2765ba6aa5a1294a89d257c89bdd035,
         type: 3}
@@ -331,6 +336,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spawner (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5335931761264635140, guid: d2765ba6aa5a1294a89d257c89bdd035,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5335931761264635162, guid: d2765ba6aa5a1294a89d257c89bdd035,
         type: 3}
@@ -708,7 +718,7 @@ PrefabInstance:
     - target: {fileID: 5856265627103687011, guid: 60c80346912e71049b8b76ddcbe8497f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5856265627103687011, guid: 60c80346912e71049b8b76ddcbe8497f,
         type: 3}
@@ -787,8 +797,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -547.23, y: -490.24}
-  m_SizeDelta: {x: 173.86823, y: 92.40703}
+  m_AnchoredPosition: {x: -526.6, y: -490.24}
+  m_SizeDelta: {x: 215.05435, y: 92.40703}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1243509807
 MonoBehaviour:
@@ -822,7 +832,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 123
+  m_Text: 1234
 --- !u!222 &1243509808
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -843,7 +853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b77f902f17e148b46b8732ef25bff102, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  money: 100
+  money: 1000
 --- !u!1 &1269813838
 GameObject:
   m_ObjectHideFlags: 0
