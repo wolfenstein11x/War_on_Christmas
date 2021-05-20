@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: demon_walk
+  m_Name: witch_die
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,16 +20,15 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -730836575110126735, guid: ff9cc4b37f858cf44bb8a9447b4daa95,
-        type: 3}
+      value: {fileID: 90061175617639709, guid: 843c7b44bd6111348b4702176662de91, type: 3}
     - time: 0.1
-      value: {fileID: -7342051457459000336, guid: ff9cc4b37f858cf44bb8a9447b4daa95,
+      value: {fileID: -9036342332746708235, guid: 843c7b44bd6111348b4702176662de91,
         type: 3}
     - time: 0.2
-      value: {fileID: -7331085992193322307, guid: ff9cc4b37f858cf44bb8a9447b4daa95,
+      value: {fileID: -8646747122597363180, guid: 843c7b44bd6111348b4702176662de91,
         type: 3}
     - time: 0.3
-      value: {fileID: 1826944595689942411, guid: ff9cc4b37f858cf44bb8a9447b4daa95,
+      value: {fileID: 4993678512183265319, guid: 843c7b44bd6111348b4702176662de91,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -50,10 +49,10 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -730836575110126735, guid: ff9cc4b37f858cf44bb8a9447b4daa95, type: 3}
-    - {fileID: -7342051457459000336, guid: ff9cc4b37f858cf44bb8a9447b4daa95, type: 3}
-    - {fileID: -7331085992193322307, guid: ff9cc4b37f858cf44bb8a9447b4daa95, type: 3}
-    - {fileID: 1826944595689942411, guid: ff9cc4b37f858cf44bb8a9447b4daa95, type: 3}
+    - {fileID: 90061175617639709, guid: 843c7b44bd6111348b4702176662de91, type: 3}
+    - {fileID: -9036342332746708235, guid: 843c7b44bd6111348b4702176662de91, type: 3}
+    - {fileID: -8646747122597363180, guid: 843c7b44bd6111348b4702176662de91, type: 3}
+    - {fileID: 4993678512183265319, guid: 843c7b44bd6111348b4702176662de91, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -83,6 +82,6 @@ AnimationClip:
     functionName: SetMovementSpeed
     data: 
     objectReferenceParameter: {fileID: 0}
-    floatParameter: 0.8
+    floatParameter: 0
     intParameter: 0
     messageOptions: 0

@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: -13727183328440598}
   - component: {fileID: 1857107997}
   - component: {fileID: 1308833063}
+  - component: {fileID: 8884297896099494506}
   m_Layer: 0
   m_Name: christmas_tree
   m_TagString: Untagged
@@ -154,7 +155,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: e9e74fc56460a7648b9dbc75ab0323ff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -211,7 +212,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.000034987926, y: -0.0033664703}
+  m_Offset: {x: -0.008824557, y: -0.026805252}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -222,5 +223,19 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.986343, y: 0.9872494}
+  m_Size: {x: 0.46483082, y: 0.87005574}
   m_EdgeRadius: 0
+--- !u!114 &8884297896099494506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2903237966761557404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72665124a823d314dacc959b6e2f6e4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  deathTime: 0.4

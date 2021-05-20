@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AttackerSpawner : MonoBehaviour
 {
-    [SerializeField] Attacker attacker;
+    [SerializeField] Attacker[] attackers;
     [SerializeField] float minSpawnDelay = 1f;
     [SerializeField] float maxSpawnDelay = 5f;
     bool spawn = true;
@@ -27,7 +27,14 @@ public class AttackerSpawner : MonoBehaviour
 
     private void SpawnAttacker()
     {
-        Attacker newAttacker = Instantiate(attacker, transform.position, transform.rotation) as Attacker;
+        var attackerIndex = Random.Range(0, attackers.Length);
+
+        Spawn(attackers[attackerIndex]);   
+    }
+
+    private void Spawn(Attacker myAttacker)
+    {
+        Attacker newAttacker = Instantiate(myAttacker, transform.position, transform.rotation) as Attacker;
 
         // make it so the instances go into a parent gameobject and don't clutter the hierarchy
         newAttacker.transform.parent = transform;

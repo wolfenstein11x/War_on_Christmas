@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: demon_walk
+  m_Name: witch_attack
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,22 +20,22 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -730836575110126735, guid: ff9cc4b37f858cf44bb8a9447b4daa95,
-        type: 3}
-    - time: 0.1
-      value: {fileID: -7342051457459000336, guid: ff9cc4b37f858cf44bb8a9447b4daa95,
+      value: {fileID: -7472578401417478566, guid: 7a98315c66a4e3d4cb40928fdf7c2535,
         type: 3}
     - time: 0.2
-      value: {fileID: -7331085992193322307, guid: ff9cc4b37f858cf44bb8a9447b4daa95,
+      value: {fileID: -239097428894112410, guid: 7a98315c66a4e3d4cb40928fdf7c2535,
         type: 3}
-    - time: 0.3
-      value: {fileID: 1826944595689942411, guid: ff9cc4b37f858cf44bb8a9447b4daa95,
+    - time: 0.4
+      value: {fileID: 3935496426491549218, guid: 7a98315c66a4e3d4cb40928fdf7c2535,
+        type: 3}
+    - time: 0.6
+      value: {fileID: -3564160474401839722, guid: 7a98315c66a4e3d4cb40928fdf7c2535,
         type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 10
+  m_SampleRate: 5
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -50,16 +50,16 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -730836575110126735, guid: ff9cc4b37f858cf44bb8a9447b4daa95, type: 3}
-    - {fileID: -7342051457459000336, guid: ff9cc4b37f858cf44bb8a9447b4daa95, type: 3}
-    - {fileID: -7331085992193322307, guid: ff9cc4b37f858cf44bb8a9447b4daa95, type: 3}
-    - {fileID: 1826944595689942411, guid: ff9cc4b37f858cf44bb8a9447b4daa95, type: 3}
+    - {fileID: -7472578401417478566, guid: 7a98315c66a4e3d4cb40928fdf7c2535, type: 3}
+    - {fileID: -239097428894112410, guid: 7a98315c66a4e3d4cb40928fdf7c2535, type: 3}
+    - {fileID: 3935496426491549218, guid: 7a98315c66a4e3d4cb40928fdf7c2535, type: 3}
+    - {fileID: -3564160474401839722, guid: 7a98315c66a4e3d4cb40928fdf7c2535, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.4
+    m_StopTime: 0.8
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -83,6 +83,13 @@ AnimationClip:
     functionName: SetMovementSpeed
     data: 
     objectReferenceParameter: {fileID: 0}
-    floatParameter: 0.8
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.6
+    functionName: StrikeCurrentTarget
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 10
     intParameter: 0
     messageOptions: 0
