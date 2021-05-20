@@ -14,8 +14,36 @@ public class LevelLoad : MonoBehaviour
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
     }
 
+    IEnumerator WaitForTime()
+    {
+        yield return new WaitForSeconds(timeToWait);
+        LoadNextScene();
+    }
+
+    public void RestartScene()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(currentSceneIndex);
+    }
+
+    public void LoadMainMenu()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Main_Menu");
+    }
+
+    public void LoadNextScene()
+    {
+        SceneManager.LoadScene(currentSceneIndex + 1);
+    }
+
     public void LoadLoseScreen()
     {
         SceneManager.LoadScene("Lose_Screen");
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }

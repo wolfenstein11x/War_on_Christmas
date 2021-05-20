@@ -19,6 +19,11 @@ public class AttackerSpawner : MonoBehaviour
         }
     }
 
+    public void StopSpawning()
+    {
+        spawn = false;
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -34,6 +39,9 @@ public class AttackerSpawner : MonoBehaviour
 
     private void Spawn(Attacker myAttacker)
     {
+        // bug fix to prevent delayed spawn after level timer ended
+        if (!spawn) { return; }
+
         Attacker newAttacker = Instantiate(myAttacker, transform.position, transform.rotation) as Attacker;
 
         // make it so the instances go into a parent gameobject and don't clutter the hierarchy
