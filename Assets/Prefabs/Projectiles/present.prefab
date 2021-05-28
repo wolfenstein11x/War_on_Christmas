@@ -127,8 +127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ef8d6b1a2a3ee143841bc2076124519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileSpeed: 3.9
-  damage: 1
+  projectileSpeed: 5
+  damage: 50
   projectileImpact: {fileID: 4987361175245787585, guid: 98a59d9ac01582241b10260164797fbb,
     type: 3}
   impactPoint: {fileID: 6810171409700901521}

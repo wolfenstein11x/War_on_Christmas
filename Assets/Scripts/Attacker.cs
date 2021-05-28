@@ -5,7 +5,10 @@ using UnityEngine;
 public class Attacker : MonoBehaviour
 {
     [Range(0f, 5f)] [SerializeField] float walkSpeed = 1f;
+    [SerializeField] float damage = 10f;
     GameObject currentTarget;
+
+    int speedScale = 1;
 
 
     private void Awake()
@@ -26,7 +29,7 @@ public class Attacker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.left * walkSpeed * Time.deltaTime);
+        transform.Translate(Vector2.left * walkSpeed * speedScale * Time.deltaTime);
         UpdateAnimationState();
     }
 
@@ -38,10 +41,16 @@ public class Attacker : MonoBehaviour
         }
     }
 
-    public void SetMovementSpeed(float speed)
+    public void ZeroMovementSpeed()
     {
-        walkSpeed = speed;
+        speedScale = 0;
     }
+
+    public void ResetMovementSpeed()
+    {
+        speedScale = 1;
+    }
+
 
     public void Attack(GameObject target)
     {
@@ -49,7 +58,7 @@ public class Attacker : MonoBehaviour
         currentTarget = target;
     }
 
-    public void StrikeCurrentTarget(float damage)
+    public void StrikeCurrentTarget()
     {
         if (!currentTarget) { return; }
 
