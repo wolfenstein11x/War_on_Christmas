@@ -6,8 +6,10 @@ public class Defender : MonoBehaviour
 {
     [SerializeField] int cost = 100;
 
-    public void AddMoney(int amount)
+    public void AddMoneyRandInt()
     {
+        int amount = Random.Range(7, 17);
+
         FindObjectOfType<MoneyDisplay>().AddMoney(amount);
     }
 
