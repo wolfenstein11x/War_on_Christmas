@@ -12,6 +12,9 @@ public class AttackerSpawner : MonoBehaviour
     // Start is called before the first frame update
     IEnumerator Start()
     {
+        // bug fix to prevent crashing if shooter placed in inactive lane
+        if (attackers.Length <= 0) { spawn = false; }
+
         while (spawn)
         {
             yield return new WaitForSeconds(Random.Range(minSpawnDelay, maxSpawnDelay));

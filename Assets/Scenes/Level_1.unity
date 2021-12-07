@@ -131,7 +131,7 @@ PrefabInstance:
     - target: {fileID: 5335931759836832708, guid: d2765ba6aa5a1294a89d257c89bdd035,
         type: 3}
       propertyPath: attackers.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5335931759836832708, guid: d2765ba6aa5a1294a89d257c89bdd035,
         type: 3}
@@ -170,12 +170,12 @@ PrefabInstance:
     - target: {fileID: 5335931759836832709, guid: d2765ba6aa5a1294a89d257c89bdd035,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5335931759943227974, guid: d2765ba6aa5a1294a89d257c89bdd035,
         type: 3}
       propertyPath: attackers.Array.size
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5335931759943227974, guid: d2765ba6aa5a1294a89d257c89bdd035,
         type: 3}
@@ -214,17 +214,17 @@ PrefabInstance:
     - target: {fileID: 5335931759943227975, guid: d2765ba6aa5a1294a89d257c89bdd035,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5335931760001864856, guid: d2765ba6aa5a1294a89d257c89bdd035,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5335931760001864862, guid: d2765ba6aa5a1294a89d257c89bdd035,
         type: 3}
       propertyPath: attackers.Array.size
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5335931760001864862, guid: d2765ba6aa5a1294a89d257c89bdd035,
         type: 3}
@@ -350,12 +350,12 @@ PrefabInstance:
     - target: {fileID: 5335931761264635140, guid: d2765ba6aa5a1294a89d257c89bdd035,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5335931761264635163, guid: d2765ba6aa5a1294a89d257c89bdd035,
         type: 3}
       propertyPath: attackers.Array.size
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5335931761264635163, guid: d2765ba6aa5a1294a89d257c89bdd035,
         type: 3}
@@ -982,7 +982,7 @@ PrefabInstance:
     - target: {fileID: 3200151403412208050, guid: f1c39d7fb4fb65740a65a4c77a349520,
         type: 3}
       propertyPath: levelTime
-      value: 10
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3200151403965388832, guid: f1c39d7fb4fb65740a65a4c77a349520,
         type: 3}
