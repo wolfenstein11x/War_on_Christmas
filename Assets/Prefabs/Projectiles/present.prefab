@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectileSpeed: 5
-  damage: 50
+  damage: 60
   projectileImpact: {fileID: 4987361175245787585, guid: 98a59d9ac01582241b10260164797fbb,
     type: 3}
   impactPoint: {fileID: 6810171409700901521}
