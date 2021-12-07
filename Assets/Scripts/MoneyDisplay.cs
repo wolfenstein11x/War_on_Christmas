@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class MoneyDisplay : MonoBehaviour
 {
-    [SerializeField] int money = 100;
+    static int money = 100;
     Text moneyText;
 
     // Start is called before the first frame update

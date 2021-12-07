@@ -28,6 +28,7 @@ public class LevelController : MonoBehaviour
         
         if (numOfAttackers <= 0 && levelTimerFinished)
         {
+            // if timer has ended, level is complete once last attacker is killed
             StartCoroutine(HandleWinCondition());
         }
     }
@@ -61,6 +62,12 @@ public class LevelController : MonoBehaviour
         foreach (AttackerSpawner spawner in spawnerArray)
         {
             spawner.StopSpawning();
+        }
+
+        // timer has expired, so if no more attackers left, level is complete
+        if (numOfAttackers <= 0)
+        {
+            StartCoroutine(HandleWinCondition());
         }
     }
 }
