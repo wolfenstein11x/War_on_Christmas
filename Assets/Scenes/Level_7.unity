@@ -356,12 +356,12 @@ PrefabInstance:
     - target: {fileID: 5335931761264635140, guid: d2765ba6aa5a1294a89d257c89bdd035,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5335931761264635163, guid: d2765ba6aa5a1294a89d257c89bdd035,
         type: 3}
       propertyPath: attackers.Array.size
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5335931761264635163, guid: d2765ba6aa5a1294a89d257c89bdd035,
         type: 3}
@@ -985,6 +985,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3200151403396340958, guid: f1c39d7fb4fb65740a65a4c77a349520,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 9a816811a68835e4fb2fa1f4c7478781,
+        type: 3}
     - target: {fileID: 3200151403412208050, guid: f1c39d7fb4fb65740a65a4c77a349520,
         type: 3}
       propertyPath: levelTime

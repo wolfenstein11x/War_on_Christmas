@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class LivesDisplay : MonoBehaviour
 {
-    [SerializeField] int lives = 5;
+    static int lives = 5;
     Text livesText;
 
 

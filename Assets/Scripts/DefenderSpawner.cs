@@ -18,6 +18,9 @@ public class DefenderSpawner : MonoBehaviour
 
     private void AttemptToPlaceDefenderAt(Vector2 gridPos)
     {
+        // bug fix to prevent crashing if user clicks with no defender selected
+        if (defender == null) { return; }
+
         var moneyDisplay = FindObjectOfType<MoneyDisplay>();
         int defenderCost = defender.GetCost();
 
