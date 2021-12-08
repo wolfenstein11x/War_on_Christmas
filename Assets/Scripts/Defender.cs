@@ -6,9 +6,11 @@ public class Defender : MonoBehaviour
 {
     [SerializeField] int cost = 100;
 
+
+    // use this function as an animation event for Tree
     public void AddMoneyRandInt()
     {
-        int amount = Random.Range(7, 17);
+        int amount = Random.Range(7, 12);
 
         FindObjectOfType<MoneyDisplay>().AddMoney(amount);
     }
