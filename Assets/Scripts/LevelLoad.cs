@@ -23,7 +23,7 @@ public class LevelLoad : MonoBehaviour
     public void RestartScene()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(currentSceneIndex);
+        SceneManager.LoadScene(1);
     }
 
     public void LoadMainMenu()
