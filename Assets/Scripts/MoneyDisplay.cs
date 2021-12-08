@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MoneyDisplay : MonoBehaviour
 {
@@ -11,6 +12,12 @@ public class MoneyDisplay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // if we are starting a new game, set lives to full amount
+        if (SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            money = 100;
+        }
+
         moneyText = GetComponent<Text>();
         UpdateDisplay();
     }
